@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'accounts',
     'chatroom',
     'chats',
+    'dajngo heroku'
 ]
 
 MIDDLEWARE = [
