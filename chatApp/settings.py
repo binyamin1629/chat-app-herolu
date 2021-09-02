@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-1m0mgxw#q&q*f9159nzw(on8$yo=6vst^b6wyb+drjq1ih#48s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hrolu-test-chatapp.herokuapp.com']
 
 
 # Application definition
