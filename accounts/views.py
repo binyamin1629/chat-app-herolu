@@ -31,6 +31,11 @@ def register(request):
 
 
     return HttpResponse('accounts created!!!')
+
+
+
+
+
 @csrf_exempt    
 def login(request):
     if request.user.is_authenticated:
@@ -47,7 +52,7 @@ def login(request):
        else:
             return HttpResponse('wrong email or password please try again')
     else:        
-        return HttpResponse('wrong email or password please try again')    
+        return HttpResponse('login here')  
 
 
 

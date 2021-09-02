@@ -76,7 +76,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'chatApp.wsgi.application'
 
-
+AUTH_USER_MODEL='accounts.Account'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
