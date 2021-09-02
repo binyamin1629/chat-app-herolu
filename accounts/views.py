@@ -22,7 +22,7 @@ def register(request):
        username=data['username']
 
 
-
+        #add try except block to chek if user alredy extists
        user=Account.objects.create_user(first_name=first_name,last_name=last_name,username=username,email=email,password=password)
        user.save()    
     else:
